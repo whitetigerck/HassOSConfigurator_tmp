@@ -4,9 +4,12 @@
   "slug": "hassosi2cconfiguratoraddon",
   "description": "This enables i2c. You can uninstall this when it has run once. Check logs for information.",
   "arch": ["armhf", "armv7", "aarch64"],
+    "startup": "once",
+
   "init": false,
   "full_access": true,
-
+  "ingress": true,
+  "app_armor": false,
   "url":"https://community.home-assistant.io/t/add-on-hassos-i2c-configurator/264167",
   "boot": "manual",
   "options": {},
