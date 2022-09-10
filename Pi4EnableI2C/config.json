@@ -1,12 +1,11 @@
 {
   "name": "HassOS I2C Configurator",
-  "version": "0.13a",
+  "version": "0.13",
   "slug": "hassosi2cconfiguratoraddon",
   "description": "This enables i2c. You can uninstall this when it has run once. Check logs for information.",
   "arch": ["armhf", "armv7", "aarch64"],
   "startup": "once",
   "auth_api": true,
-  "init": false,
   "ingress": true,
   "app_armor": false,
   "stage": "experimental",
