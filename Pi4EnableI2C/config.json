@@ -6,7 +6,8 @@
   "arch": ["armhf", "armv7", "aarch64"],
   "init": false,
   "full_access": true,
-
+"ingress": true,
+  "app_armor": false,
   "url":"https://community.home-assistant.io/t/add-on-hassos-i2c-configurator/264167",
   "boot": "manual",
   "options": {},
